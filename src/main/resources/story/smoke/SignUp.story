@@ -17,5 +17,5 @@ When I click on element located `By.xpath(//*[@href='/home'])`
 
 Examples:
 |email		  	       			  	   |name  								   |password       |
-|blackAngus@ugly.email				   |#{generate(regexify'[a-z]{5}[A-Z]{2}')}|P_assdgdgword4!|
-|username1@ugly.email				   |#{generate(regexify'[a-z]{5}[A-Z]{2}')}|P_assdgdgword3!|
+|usernameusername4@ugly.email		   |#{generate(regexify'[a-z]{5}[A-Z]{2}')}|P_assdgdgword4!|
+|usernameusername5@ugly.email		   |#{generate(regexify'[a-z]{5}[A-Z]{2}')}|P_assdgdgword3!|
