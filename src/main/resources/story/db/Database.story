@@ -1,4 +1,4 @@
-Description: Simple Database result set test
+iption: Simple Database result set test
 
 Scenario: Verify database result set
 When I execute SQL query `
