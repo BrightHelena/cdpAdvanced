@@ -1,4 +1,13 @@
-
+Scenario: Preconditions
+Given I am on the main application page
+When I click on element located `By.xpath(//a[@href='/signup' and @data-analytics-event ='clickedSignupHeaderButton'])`
+When I enter `<emailOne>` in field located `By.xpath(//*[@id="email"])`
+When I click on element located `By.xpath(//input[@id='signup'])`
+When I enter `<nameOne>` in field located `By.xpath(//*[@placeholder='Enter full name'])`
+When I enter `<passwordOne>` in field located `By.xpath(//input[@id='password'])`
+When I click on element located `By.xpath(//input[@id='signup'])`
+When I click on element located `By.xpath(//*[@class='first-board-navigation']/span[5])`
+When I click on element located `By.xpath(//*[@data-test-id='continue-button'])`
 
 Scenario: Profile Verifying 
 Given I am on the main application page
